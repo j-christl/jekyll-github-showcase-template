@@ -1,0 +1,64 @@
+body, html {
+  color: #FFFFFF;
+	background: linear-gradient(to bottom, #6f26af 0%, #ad49bf 100%) no-repeat #6f26af;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.4em;
+	font-family: "Helvetica Neue", "Helvetica", "Arial";
+}
+
+.profile-allcontainer {
+  background: #DDDDDD;
+  border-radius: 25px;
+	border: 2px solid #999999;
+  margin: 100px;
+  margin-top: 120px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-container {
+  background-color: #FFFFFF;
+	border: 2px solid #BBBBBB;
+  border-radius: 25px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  color: #000;
+}
+
+.profile-container:hover {
+	box-shadow: 0 0.225rem 0.35rem rgba(0,0,0,0.275);
+}
+
+.logo-wrapper {
+  width: 48px;
+  height: 48px;
+  margin-top: -24px;
+  margin-left: 176px;
+  background-color: #000;
+  border-radius: 25px;
+}
+
+.profile-container-img {
+  width: 32px;
+  height: 32px;
+  margin-top: 8px;
+}
+
+.profile-container-text {
+  font-size: 20px;
+  margin: 10px;
+  text-align:center;
+}
+
+.profile-container-description {
+  font-size: 16px;
+  margin: 20px;
+  margin-top: 20px;
+  text-align:left;
+}
