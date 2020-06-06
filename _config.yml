@@ -1,7 +1,0 @@
-# jekyll-github-projects-view configuration
-# --
-# Here you can specify the the number of github
-# repositories you want to show
-
-jekyll_github_projects_view:
-  num_repos: 6
